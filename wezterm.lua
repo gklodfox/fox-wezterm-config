@@ -6,7 +6,7 @@ local config = wezterm.config_builder()
 
 -- or, changing the font size and color scheme.
 config.enable_tab_bar = false
-config.window_background_opacity = 0.1
+config.window_background_opacity = 0.69
 config.window_close_confirmation = 'NeverPrompt'
 
 
@@ -14,13 +14,13 @@ config.window_close_confirmation = 'NeverPrompt'
 config.font = wezterm.font 'Iosevka Foxx Extended'
 config.font_size = 12
 config.colors = {
-    background = '#1f282e',
+    background = '#000000',
     foreground = '#d1dbe0',
-    selection_bg = '#ff007b',
-    selection_fg = '#0d0d0d',
+    selection_fg = '#ff007b',
+    selection_bg = '#0d0d0d',
     cursor_bg = '#ff007b',
     cursor_border = '#ff007b',
-    cursor_fg = '#0d0d0d',
+    cursor_fg = '#ff007b',
     ansi = {
         '#0d0d0d',
         '#db7079',
